@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="140" id="KGk-i7-Jjw" customClass="ZXTransferHistoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="139.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="cBp-Js-4r5">
+                        <rect key="frame" x="15" y="15" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="cZV-dW-N96"/>
+                            <constraint firstAttribute="width" constant="40" id="zfG-tE-wvK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张晓雅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fe-gi-mqQ">
+                        <rect key="frame" x="67" y="20" width="40" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-06-11 9:31" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdu-wY-WHN">
+                        <rect key="frame" x="67" y="41" width="93" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3U9-dz-tNc">
+                        <rect key="frame" x="67" y="65" width="238" height="69.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="qit-Tw-E4C">
+                                <rect key="frame" x="8" y="15" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Vj-Co-Dpd"/>
+                                    <constraint firstAttribute="width" constant="40" id="Kqn-Me-86J"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张晓雅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnl-A9-hbB">
+                                <rect key="frame" x="58" y="16" width="40" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMG_1280.MOV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ot-jU-bcv">
+                                <rect key="frame" x="58" y="42" width="73" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.34M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbn-nP-uLN">
+                                <rect key="frame" x="185" y="16" width="43" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receive_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tew-PV-sQH">
+                                <rect key="frame" x="108" y="16.5" width="11" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="W4U-s5-T5S"/>
+                                    <constraint firstAttribute="height" constant="10" id="oXO-YB-5hX"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="W4U-s5-T5S"/>
+                                        <exclude reference="oXO-YB-5hX"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tew-PV-sQH" firstAttribute="centerY" secondItem="Pnl-A9-hbB" secondAttribute="centerY" id="09P-ba-tMM"/>
+                            <constraint firstItem="qit-Tw-E4C" firstAttribute="centerY" secondItem="3U9-dz-tNc" secondAttribute="centerY" id="1jT-uM-lBq"/>
+                            <constraint firstItem="7Ot-jU-bcv" firstAttribute="bottom" secondItem="qit-Tw-E4C" secondAttribute="bottom" constant="-1" id="Bki-Zs-JZo"/>
+                            <constraint firstItem="Tew-PV-sQH" firstAttribute="leading" secondItem="Pnl-A9-hbB" secondAttribute="trailing" constant="10" id="EJK-Pu-d2Z"/>
+                            <constraint firstItem="Pnl-A9-hbB" firstAttribute="leading" secondItem="qit-Tw-E4C" secondAttribute="trailing" constant="10" id="EWR-sa-HGI"/>
+                            <constraint firstItem="qit-Tw-E4C" firstAttribute="leading" secondItem="3U9-dz-tNc" secondAttribute="leading" constant="8" id="bi0-ZL-2Xd"/>
+                            <constraint firstItem="vbn-nP-uLN" firstAttribute="centerY" secondItem="Pnl-A9-hbB" secondAttribute="centerY" id="gqf-8F-Cb3"/>
+                            <constraint firstItem="Tew-PV-sQH" firstAttribute="leading" secondItem="7Ot-jU-bcv" secondAttribute="trailing" constant="10" id="lSd-qh-kJb"/>
+                            <constraint firstItem="Pnl-A9-hbB" firstAttribute="top" secondItem="qit-Tw-E4C" secondAttribute="top" constant="1" id="lzG-Ak-K7t"/>
+                            <constraint firstAttribute="trailing" secondItem="vbn-nP-uLN" secondAttribute="trailing" constant="10" id="qSo-hI-tgL"/>
+                            <constraint firstItem="7Ot-jU-bcv" firstAttribute="leading" secondItem="qit-Tw-E4C" secondAttribute="trailing" constant="10" id="vIJ-me-H5N"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lSd-qh-kJb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="3U9-dz-tNc" secondAttribute="bottom" constant="5" id="ENk-LZ-5sZ"/>
+                    <constraint firstAttribute="trailing" secondItem="3U9-dz-tNc" secondAttribute="trailing" constant="15" id="HLO-ZH-6qb"/>
+                    <constraint firstItem="cBp-Js-4r5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Klp-eK-0P1"/>
+                    <constraint firstItem="5fe-gi-mqQ" firstAttribute="leading" secondItem="cBp-Js-4r5" secondAttribute="trailing" constant="12" id="TIB-0J-U00"/>
+                    <constraint firstItem="3U9-dz-tNc" firstAttribute="top" secondItem="Pdu-wY-WHN" secondAttribute="bottom" constant="10" id="YON-fg-HMG"/>
+                    <constraint firstItem="3U9-dz-tNc" firstAttribute="leading" secondItem="Pdu-wY-WHN" secondAttribute="leading" id="fks-fE-tP3"/>
+                    <constraint firstItem="5fe-gi-mqQ" firstAttribute="top" secondItem="cBp-Js-4r5" secondAttribute="top" constant="5" id="ngc-Q9-ADq"/>
+                    <constraint firstItem="Pdu-wY-WHN" firstAttribute="leading" secondItem="5fe-gi-mqQ" secondAttribute="leading" id="t6K-Ip-Fdj"/>
+                    <constraint firstItem="Pdu-wY-WHN" firstAttribute="top" secondItem="5fe-gi-mqQ" secondAttribute="bottom" constant="5" id="vPv-W5-fk8"/>
+                    <constraint firstItem="cBp-Js-4r5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="vzB-xA-Qz2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actionTime" destination="Pdu-wY-WHN" id="XeH-wC-egP"/>
+                <outlet property="bgView" destination="3U9-dz-tNc" id="XRV-GL-EkP"/>
+                <outlet property="directionForYou" destination="Tew-PV-sQH" id="QEd-ze-D6k"/>
+                <outlet property="fileName" destination="7Ot-jU-bcv" id="HAk-ZC-8Yz"/>
+                <outlet property="fileSize" destination="vbn-nP-uLN" id="5eX-qm-fm1"/>
+                <outlet property="receiverImg" destination="qit-Tw-E4C" id="sMg-Ts-Gpu"/>
+                <outlet property="receiverName" destination="Pnl-A9-hbB" id="rlv-FP-BY4"/>
+                <outlet property="senderImg" destination="cBp-Js-4r5" id="pC1-74-gxt"/>
+                <outlet property="senderName" destination="5fe-gi-mqQ" id="tG5-8S-gzj"/>
+            </connections>
+            <point key="canvasLocation" x="229" y="259"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="receive_ic.png" width="11" height="15"/>
+        <image name="wechat_ic.png" width="24" height="24"/>
+    </resources>
+</document>

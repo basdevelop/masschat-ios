@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="ZXTransDoneCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acu-Ez-LM3">
+                        <rect key="frame" x="40" y="0.0" width="240" height="74.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="VoA-gR-aUU">
+                                <rect key="frame" x="15" y="15" width="44.5" height="44.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VoA-gR-aUU" secondAttribute="height" multiplier="1:1" id="UnU-iB-vdQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="张哈哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHR-d3-zF3">
+                                <rect key="frame" x="74" y="15" width="42" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMG_1280.MOV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdi-wU-cuM">
+                                <rect key="frame" x="74" y="43" width="92" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17.32M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijd-RQ-HZf">
+                                <rect key="frame" x="185" y="16" width="39.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receive_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="L36-Fg-UVe">
+                                <rect key="frame" x="214" y="43.5" width="11" height="15"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ijd-RQ-HZf" secondAttribute="trailing" constant="15" id="6ms-eJ-iQc"/>
+                            <constraint firstItem="L36-Fg-UVe" firstAttribute="centerY" secondItem="bdi-wU-cuM" secondAttribute="centerY" id="FGu-Mq-wLr"/>
+                            <constraint firstItem="Ijd-RQ-HZf" firstAttribute="centerY" secondItem="oHR-d3-zF3" secondAttribute="centerY" id="OK2-0R-fvQ"/>
+                            <constraint firstItem="oHR-d3-zF3" firstAttribute="top" secondItem="VoA-gR-aUU" secondAttribute="top" id="QZA-e4-cfo"/>
+                            <constraint firstItem="VoA-gR-aUU" firstAttribute="top" secondItem="acu-Ez-LM3" secondAttribute="top" constant="15" id="SYr-Ep-AEd"/>
+                            <constraint firstItem="VoA-gR-aUU" firstAttribute="leading" secondItem="acu-Ez-LM3" secondAttribute="leading" constant="15" id="UZw-jr-eR5"/>
+                            <constraint firstItem="oHR-d3-zF3" firstAttribute="leading" secondItem="VoA-gR-aUU" secondAttribute="trailing" constant="15" id="b3S-bS-moD"/>
+                            <constraint firstItem="bdi-wU-cuM" firstAttribute="bottom" secondItem="VoA-gR-aUU" secondAttribute="bottom" id="ko6-Y7-7Ou"/>
+                            <constraint firstAttribute="trailing" secondItem="L36-Fg-UVe" secondAttribute="trailing" constant="15" id="meD-nR-R5j"/>
+                            <constraint firstItem="bdi-wU-cuM" firstAttribute="leading" secondItem="VoA-gR-aUU" secondAttribute="trailing" constant="15" id="pm8-yy-0eX"/>
+                            <constraint firstAttribute="bottom" secondItem="VoA-gR-aUU" secondAttribute="bottom" constant="15" id="xqt-EI-BrB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="acu-Ez-LM3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Jej-6K-xFa"/>
+                    <constraint firstAttribute="bottom" secondItem="acu-Ez-LM3" secondAttribute="bottom" id="YZe-EF-DfT"/>
+                    <constraint firstItem="acu-Ez-LM3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="hL9-mT-Zpa"/>
+                    <constraint firstAttribute="trailing" secondItem="acu-Ez-LM3" secondAttribute="trailing" constant="40" id="sjT-jo-bLV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="213" y="219.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="receive_ic.png" width="11" height="15"/>
+        <image name="wechat_ic.png" width="24" height="24"/>
+    </resources>
+</document>

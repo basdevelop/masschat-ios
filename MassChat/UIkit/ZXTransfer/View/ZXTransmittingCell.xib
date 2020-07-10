@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="ZXTransmittingCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zaV-js-dKW">
+                        <rect key="frame" x="40" y="0.0" width="240" height="75"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="nSk-S8-fy3">
+                                <rect key="frame" x="15" y="15" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nSk-S8-fy3" secondAttribute="height" multiplier="1:1" id="YtL-Hl-2SJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMG_1280.MOV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trK-o8-fXX">
+                                <rect key="frame" x="75" y="15" width="80" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receive_ic.png" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-BV-iKc">
+                                <rect key="frame" x="214" y="15" width="11" height="15"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.46M/17.32M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1u-Xc-wWG">
+                                <rect key="frame" x="139" y="36" width="86" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uI7-ng-GN6">
+                                <rect key="frame" x="45" y="67" width="150" height="2"/>
+                                <color key="tintColor" red="0.67964261770000001" green="0.58123075960000004" blue="0.86688250300000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="nSk-S8-fy3" secondAttribute="bottom" constant="15" id="082-GU-lrb"/>
+                            <constraint firstItem="uI7-ng-GN6" firstAttribute="leading" secondItem="zaV-js-dKW" secondAttribute="leading" constant="45" id="1QN-IQ-ASM"/>
+                            <constraint firstItem="uI7-ng-GN6" firstAttribute="centerX" secondItem="zaV-js-dKW" secondAttribute="centerX" id="62N-DB-ToT"/>
+                            <constraint firstItem="trK-o8-fXX" firstAttribute="top" secondItem="nSk-S8-fy3" secondAttribute="top" id="BOX-Ao-gcV"/>
+                            <constraint firstItem="nSk-S8-fy3" firstAttribute="top" secondItem="zaV-js-dKW" secondAttribute="top" constant="15" id="FZT-Tw-ipk"/>
+                            <constraint firstItem="nSk-S8-fy3" firstAttribute="leading" secondItem="zaV-js-dKW" secondAttribute="leading" constant="15" id="HNG-jT-Ld1"/>
+                            <constraint firstItem="nSk-S8-fy3" firstAttribute="centerY" secondItem="zaV-js-dKW" secondAttribute="centerY" id="M08-IA-1XZ"/>
+                            <constraint firstItem="RgZ-BV-iKc" firstAttribute="centerY" secondItem="trK-o8-fXX" secondAttribute="centerY" id="MMd-1L-20G"/>
+                            <constraint firstItem="uI7-ng-GN6" firstAttribute="top" secondItem="s1u-Xc-wWG" secondAttribute="bottom" constant="16" id="T4f-cj-7AG"/>
+                            <constraint firstAttribute="trailing" secondItem="s1u-Xc-wWG" secondAttribute="trailing" constant="15" id="hor-0T-hTM"/>
+                            <constraint firstItem="trK-o8-fXX" firstAttribute="leading" secondItem="nSk-S8-fy3" secondAttribute="trailing" constant="15" id="ilI-Xk-out"/>
+                            <constraint firstItem="s1u-Xc-wWG" firstAttribute="top" secondItem="trK-o8-fXX" secondAttribute="bottom" constant="5" id="oqB-fO-reF"/>
+                            <constraint firstAttribute="trailing" secondItem="RgZ-BV-iKc" secondAttribute="trailing" constant="15" id="tzI-Cg-7pt"/>
+                            <constraint firstItem="s1u-Xc-wWG" firstAttribute="top" secondItem="RgZ-BV-iKc" secondAttribute="bottom" constant="6" id="vgI-S5-YpZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="M08-IA-1XZ"/>
+                                <exclude reference="oqB-fO-reF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="zaV-js-dKW" secondAttribute="bottom" id="4aN-wg-YbK"/>
+                    <constraint firstAttribute="trailing" secondItem="zaV-js-dKW" secondAttribute="trailing" constant="40" id="4s9-xo-gBm"/>
+                    <constraint firstItem="zaV-js-dKW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="jav-IH-c09"/>
+                    <constraint firstItem="zaV-js-dKW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lgn-l8-Ps9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fileName" destination="trK-o8-fXX" id="cQX-Cq-23V"/>
+                <outlet property="peerFriendAvatar" destination="nSk-S8-fy3" id="OK9-XC-kwj"/>
+                <outlet property="progressDesc" destination="s1u-Xc-wWG" id="fd6-FT-MeN"/>
+                <outlet property="tipsIcon" destination="RgZ-BV-iKc" id="b5F-Ir-u5B"/>
+                <outlet property="transProgress" destination="uI7-ng-GN6" id="tHc-wS-81M"/>
+            </connections>
+            <point key="canvasLocation" x="213" y="219.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="receive_ic.png" width="11" height="15"/>
+        <image name="wechat_ic.png" width="24" height="24"/>
+    </resources>
+</document>
