@@ -267,7 +267,7 @@ UINavigationControllerDelegate, MPMediaPickerControllerDelegate>{
                         NSString* peer_name = [[WifiDirectManager getInstance] mcPeerID].displayName;
                         NSString* qr_string = [qr_code_data generateString:peer_name];
                         
-                        _codeImage.hidden = NO;
+                        self->_codeImage.hidden = NO;
                         _codeImage.image = [SGQRCodeGenerateManager SG_generateWithDefaultQRCodeData:qr_string
                                                                                       imageViewWidth:_codeImage.width];
                         
